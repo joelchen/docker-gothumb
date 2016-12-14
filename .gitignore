@@ -1,3 +1,4 @@
 *
 !.gitignore
 !deploy.sh
+!Dockerfile
