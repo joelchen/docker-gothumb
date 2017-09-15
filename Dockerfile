@@ -1,5 +1,5 @@
 FROM alpine:latest
-RUN apk --no-cache add ca-certificates && update-ca-certificates
+RUN apk --no-cache add ca-certificates
 COPY gothumb /bin
 COPY lib /usr/lib
 EXPOSE 8888
